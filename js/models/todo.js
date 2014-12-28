@@ -1,4 +1,4 @@
 Todos.Todo = DS.Model.extend({
 	title: DS.attr('string'),
-	isCompleted: 
-})
+	isCompleted: DS.attr('boolean')
+});
